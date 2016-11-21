@@ -1,0 +1,17 @@
+{
+  "name": "angular1-boilerplate",
+  "description": "A basic start to your angular app",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies":{
+    "angular":          "1.5.8",
+    "angular-route":    "1.5.8"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0"
+  }
+}

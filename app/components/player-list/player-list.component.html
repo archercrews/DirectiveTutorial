@@ -1,0 +1,17 @@
+<table>
+  <th></th>
+  <th>Field Corner</th>
+  <th>Boundary Corner</th>
+  <th>Star</th>
+  <th>Strong Safety</th>
+  <th>Free Safety</th>
+  <tr ng-repeat="formation in playerlist.results">
+    <td>{{$index + 1}}</td>
+    <td ng-click="playerlist.toggleLock('Field Corner', formation['Field Corner'])">{{formation["Field Corner"]}}</td>
+    <td ng-click="playerlist.toggleLock('Boundary Corner', formation['Boundary Corner'])">{{formation["Boundary Corner"]}}</td>
+    <td ng-click="playerlist.toggleLock('Star', formation['Star'])">{{formation["Star"]}}</td>
+    <td ng-click="playerlist.toggleLock('Strong Safety', formation['Strong Safety'])">{{formation["Strong Safety"]}}</td>
+    <td ng-click="playerlist.toggleLock('Free Safety', formation['Free Safety'])">{{formation["Free Safety"]}}</td>
+  </tr>
+</table>
+<button ng-click="playerlist.reset()">Reset</button>

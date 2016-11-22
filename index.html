@@ -1,14 +1,17 @@
 <html>
 <head>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="node_modules/angular/angular.min.js"></script>
   <script src="node_modules/angular-route/angular-route.min.js"></script>
   <script src="node_modules/lodash/lodash.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 
   <script src="app/app.js"></script>
   <script src="app/components/sample-component/sample-component.js"></script>
-  <script src="app/components/player-list/player-list.component.js"></script>
+  <script src="app/components/userInfoCard/userInfoCard.js"></script>
 </head>
-<body ng-app="myApp">
-  <player-list></player-list>
+<body ng-app="myApp" class="container" style="padding-top:30px">
+  <user-info-card></user-info-card>
 </body>
 </html>

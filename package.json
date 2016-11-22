@@ -6,9 +6,11 @@
   "scripts": {
     "start": "lite-server"
   },
-  "dependencies":{
-    "angular":          "1.5.8",
-    "angular-route":    "1.5.8"
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-route": "1.5.8",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
